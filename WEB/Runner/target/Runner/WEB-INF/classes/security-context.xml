@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- jebane gówno nie chce działać jak domyślna przestrzeń nazw jest ustawiona na /schema/security i trzeba napierdalać tym sec: -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:sec="http://www.springframework.org/schema/security"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="
+http://www.springframework.org/schema/beans 
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/security 
+http://www.springframework.org/schema/security/spring-security.xsd">
+
+    <sec:http auto-config="true">
+    	<sec:form-login 
+    	login-page="/login" 
+    	default-target-url="/getUserData" 
+    	authentication-failure-url="/login?satus=failedLogin"
+    	username-parameter="username"
+        password-parameter="password" />
+    	<sec:logout logout-success-url="/login?status=logout" />
+    	<sec:csrf />
+    </sec:http>
+
+	 <sec:authentication-manager>
+		<sec:authentication-provider>
+		 	<sec:jdbc-user-service data-source-ref="dataSource"
+		   		users-by-username-query="SELECT name, password, 1 FROM users WHERE name=?"
+		   		authorities-by-username-query="SELECT name, role FROM users WHERE name =?" />
+		</sec:authentication-provider>
+	 </sec:authentication-manager>
+    
+ 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName"> <value>org.postgresql.Driver</value></property>
+		<property name="url" value="jdbc:postgresql://localhost:5432/Runner" />
+		<property name="username" value="postgres" />
+		<property name="password" value="admin" />
+	</bean>
+
+</beans>
