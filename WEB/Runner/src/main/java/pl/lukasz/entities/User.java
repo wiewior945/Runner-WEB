@@ -23,6 +23,13 @@ public class User {
 	@Column
 	private String password;
 	
+	public User(){};
+	
+	public User(String name, String password){
+		this.name=name;
+		this.password=password;
+	}
+	
 	
 	
 	public void setId(Long id){

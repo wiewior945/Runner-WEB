@@ -3488,3 +3488,55 @@ org.eclipse.swt.SWTException: Widget is disposed
 2017-09-06 17:12:19,604 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2017-09-06 17:12:19,611 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-09-06 17:12:19,613 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Runner\WEB\Runner\src\test\resources
+2017-09-13 20:13:31,297 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:13:31,304 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-09-13 20:13:31,314 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:13:31,315 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Runner\WEB\Runner\src\test\resources
+2017-09-13 20:13:42,694 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:13:42,699 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-09-13 20:13:42,701 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:13:42,702 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Runner\WEB\Runner\src\test\resources
+2017-09-13 20:13:48,018 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Runner\WEB\Runner
+2017-09-13 20:13:48,019 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B generate-sources
+2017-09-13 20:13:49,962 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:13:49,963 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-13 20:13:49,964 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:13:49,965 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Runner\WEB\Runner\src\test\resources
+2017-09-13 20:13:55,422 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Runner\WEB\Runner
+2017-09-13 20:13:55,423 [Worker-32] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-09-13 20:13:56,875 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:13:56,876 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-09-13 20:13:56,880 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:13:56,881 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Runner\WEB\Runner\src\test\resources
+2017-09-13 20:13:56,895 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Runner
+2017-09-13 20:13:56,896 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Runner
+2017-09-13 20:13:56,917 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:14:02,822 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Runner\WEB\Runner
+2017-09-13 20:14:02,822 [Worker-29] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-13 20:14:08,241 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:14:08,243 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-09-13 20:14:08,244 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:14:08,246 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Runner\WEB\Runner\src\test\resources
+2017-09-13 20:17:30,941 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:17:30,943 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-09-13 20:17:30,944 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:17:30,945 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Runner\WEB\Runner\src\test\resources
+2017-09-13 20:17:40,564 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Runner\WEB\Runner
+2017-09-13 20:17:40,565 [Worker-37] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-09-13 20:17:42,018 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:17:42,019 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-09-13 20:17:42,023 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:17:42,024 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Runner\WEB\Runner\src\test\resources
+2017-09-13 20:17:42,024 [Worker-36] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Runner
+2017-09-13 20:17:42,024 [Worker-36] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Runner
+2017-09-13 20:17:42,032 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:17:48,582 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\Runner\WEB\Runner
+2017-09-13 20:17:48,582 [Worker-31] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-09-13 20:17:53,460 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:17:53,465 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-09-13 20:17:53,467 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:17:53,468 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Runner\WEB\Runner\src\test\resources
+2017-09-13 20:33:45,346 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:33:45,348 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-09-13 20:33:45,349 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-13 20:33:45,350 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Runner\WEB\Runner\src\test\resources

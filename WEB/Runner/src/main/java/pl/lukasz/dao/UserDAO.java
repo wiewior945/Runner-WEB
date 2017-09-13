@@ -38,6 +38,8 @@ public class UserDAO {
 		Session session = getSession();
 		Criteria c = session.createCriteria(User.class);
 		c.add(Restrictions.eq("name", username));
-		return (User)c.uniqueResult();
+		User user = (User)c.uniqueResult();
+		session.close();
+		return user;
 	}
 }

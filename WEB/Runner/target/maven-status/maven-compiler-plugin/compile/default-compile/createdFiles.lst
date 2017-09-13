@@ -1,0 +1,7 @@
+pl\lukasz\dao\UserDAO.class
+pl\lukasz\webservices\UserWebService.class
+pl\lukasz\entities\User.class
+pl\lukasz\controlers\LoginController.class
+pl\lukasz\entities\LoggedUser.class
+pl\lukasz\controlers\DashboardController.class
+pl\lukasz\services\UserService.class

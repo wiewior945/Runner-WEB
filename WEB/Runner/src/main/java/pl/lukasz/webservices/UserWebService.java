@@ -29,4 +29,10 @@ public class UserWebService {
 		}
 		return null;
 	}
+	
+	@RequestMapping("/webservice/register")
+	public boolean register(@RequestParam(value="name") String name, @RequestParam(value="password") String password){
+		User user = new User(name, password);
+		return userService.saveNewUser(user);
+	}
 }
