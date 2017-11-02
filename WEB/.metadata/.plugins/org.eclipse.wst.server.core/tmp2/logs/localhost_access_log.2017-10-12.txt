@@ -1,0 +1,7 @@
+192.168.8.102 - - [12/Oct/2017:00:10:53 +0200] "POST /Runner/webservices/saveTrack HTTP/1.1" 403 1084
+192.168.8.102 - - [12/Oct/2017:00:15:47 +0200] "POST /Runner/webservice/saveTrack HTTP/1.1" 403 1084
+192.168.8.100 - - [12/Oct/2017:00:16:34 +0200] "GET /Runner/webservice/saveTrack HTTP/1.1" 400 1199
+192.168.8.100 - - [12/Oct/2017:00:16:34 +0200] "GET /favicon.ico HTTP/1.1" 404 1084
+192.168.8.100 - - [12/Oct/2017:00:18:14 +0200] "GET /Runner/webservice/saveTrack HTTP/1.1" 400 1199
+192.168.8.100 - - [12/Oct/2017:00:20:25 +0200] "GET / HTTP/1.1" 404 1073
+192.168.8.102 - - [12/Oct/2017:00:21:30 +0200] "POST /Runner/webservice/saveTrack HTTP/1.1" 403 1084

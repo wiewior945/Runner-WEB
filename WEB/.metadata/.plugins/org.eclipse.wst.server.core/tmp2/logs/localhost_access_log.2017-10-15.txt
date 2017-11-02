@@ -1,0 +1,16 @@
+192.168.8.100 - - [15/Oct/2017:23:22:40 +0200] "GET / HTTP/1.1" 404 1073
+192.168.8.100 - - [15/Oct/2017:23:23:02 +0200] "GET /Runner/webservice/testClass HTTP/1.1" 400 1207
+192.168.8.100 - - [15/Oct/2017:23:23:02 +0200] "GET /favicon.ico HTTP/1.1" 404 1084
+192.168.8.101 - - [15/Oct/2017:23:23:54 +0200] "POST /webservice/testClass HTTP/1.1" 404 1093
+192.168.8.100 - - [15/Oct/2017:23:31:39 +0200] "GET / HTTP/1.1" 404 1073
+192.168.8.101 - - [15/Oct/2017:23:32:04 +0200] "POST /webservice/testClass HTTP/1.1" 404 1093
+192.168.8.101 - - [15/Oct/2017:23:37:17 +0200] "POST /webservice/testClass HTTP/1.1" 404 1093
+192.168.8.101 - - [15/Oct/2017:23:38:24 +0200] "GET /Runner/login HTTP/1.1" 200 285
+192.168.8.101 - - [15/Oct/2017:23:38:24 +0200] "GET /favicon.ico HTTP/1.1" 404 1084
+192.168.8.101 - - [15/Oct/2017:23:38:35 +0200] "GET /Runner/webservice/testClass HTTP/1.1" 400 1207
+192.168.8.100 - - [15/Oct/2017:23:39:43 +0200] "GET /webservice/testClass HTTP/1.1" 404 1093
+192.168.8.101 - - [15/Oct/2017:23:40:44 +0200] "POST /Runner/webservice/testClass HTTP/1.1" 403 1084
+192.168.8.100 - - [15/Oct/2017:23:50:04 +0200] "GET / HTTP/1.1" 404 1073
+192.168.8.101 - - [15/Oct/2017:23:50:47 +0200] "POST /Runner/webservice/testClass HTTP/1.1" 403 1084
+192.168.8.100 - - [15/Oct/2017:23:52:52 +0200] "GET / HTTP/1.1" 404 1073
+192.168.8.101 - - [15/Oct/2017:23:54:01 +0200] "POST /Runner/webservice/testClass HTTP/1.1" 403 1084

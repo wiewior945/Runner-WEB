@@ -19,7 +19,7 @@ http://www.springframework.org/schema/security/spring-security.xsd">
     	username-parameter="username"
         password-parameter="password" />
     	<sec:logout logout-success-url="/login?status=logout" />
-    	<sec:csrf />
+    	<sec:csrf disabled="true" />
     </sec:http>
 
 	 <sec:authentication-manager>

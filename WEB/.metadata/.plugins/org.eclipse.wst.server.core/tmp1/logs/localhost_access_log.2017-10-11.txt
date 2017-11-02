@@ -1,0 +1,4 @@
+127.0.0.1 - - [11/Oct/2017:23:47:21 +0200] "GET / HTTP/1.1" 404 1073
+127.0.0.1 - - [11/Oct/2017:23:47:43 +0200] "GET /Runner/webservice/saveTrack HTTP/1.1" 404 1050
+127.0.0.1 - - [11/Oct/2017:23:47:44 +0200] "GET /favicon.ico HTTP/1.1" 404 1084
+127.0.0.1 - - [11/Oct/2017:23:48:07 +0200] "GET /Runner/webservices/saveTrack HTTP/1.1" 400 1199
