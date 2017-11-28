@@ -23,15 +23,12 @@
 <fullyQualifiedTypeName name="javax.persistence.metamodel.EntityType"/>
 <fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
 <fullyQualifiedTypeName name="javax.persistence.Query"/>
-<fullyQualifiedTypeName name="org.hibernate.Criteria"/>
-<fullyQualifiedTypeName name="org.hibernate.criterion.Restrictions"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
 <fullyQualifiedTypeName name="pl.lukasz.entities.LoggedUser"/>
 <fullyQualifiedTypeName name="pl.lukasz.entities.User"/>
 <fullyQualifiedTypeName name="pl.lukasz.services.UserService"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseBody"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.hibernate.bytecode.enhance.spi.interceptor.LazyAttributeLoadingInterceptor"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
@@ -48,4 +45,11 @@
 <fullyQualifiedTypeName name="javax.persistence.ElementCollection"/>
 <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
+<fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+<fullyQualifiedTypeName name="pl.lukasz.entities.LatLng"/>
+<fullyQualifiedTypeName name="pl.lukasz.entities.MarkerInfo"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.hibernate.Criteria"/>
+<fullyQualifiedTypeName name="org.hibernate.criterion.Restrictions"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

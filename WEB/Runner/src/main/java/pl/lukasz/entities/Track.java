@@ -3,6 +3,7 @@ package pl.lukasz.entities;
 import java.util.Date;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
@@ -29,12 +30,12 @@ public class Track {
 	
 	@Column
 	@ElementCollection(targetClass=Double.class)
-	private List<Double> longtitude;
+	private List<Double> longitude;
 	
-	@Column private Double stratLatitude;
-	@Column private Double stratLongtitude;
+	@Column private Double startLatitude;
+	@Column private Double startLongitude;
 	@Column private Double endLatitude;
-	@Column private Double endLongtitude;
+	@Column private Double endLongitude;
 	@Column private Date dateCreated;
 	@Column private String startDescription;
 	@Column private String finishDescription;
@@ -60,23 +61,23 @@ public class Track {
 	public void setLatitude(List<Double> latitude) {
 		this.latitude = latitude;
 	}
-	public List<Double> getLongtitude() {
-		return longtitude;
+	public List<Double> getLongitude() {
+		return longitude;
 	}
-	public void setLongtitude(List<Double> longtitude) {
-		this.longtitude = longtitude;
+	public void setLongitude(List<Double> longitude) {
+		this.longitude = longitude;
 	}
-	public Double getStratLatitude() {
-		return stratLatitude;
+	public Double getStartLatitude() {
+		return startLatitude;
 	}
-	public void setStratLatitude(Double stratLatitude) {
-		this.stratLatitude = stratLatitude;
+	public void setStartLatitude(Double stratLatitude) {
+		this.startLatitude = stratLatitude;
 	}
-	public Double getStratLongtitude() {
-		return stratLongtitude;
+	public Double getStartLongitude() {
+		return startLongitude;
 	}
-	public void setStratLongtitude(Double stratLongtitude) {
-		this.stratLongtitude = stratLongtitude;
+	public void setStartLongitude(Double stratLongitude) {
+		this.startLongitude = stratLongitude;
 	}
 	public Double getEndLatitude() {
 		return endLatitude;
@@ -85,10 +86,10 @@ public class Track {
 		this.endLatitude = endLatitude;
 	}
 	public Double getEndLongtitude() {
-		return endLongtitude;
+		return endLongitude;
 	}
-	public void setEndLongtitude(Double endLongtitude) {
-		this.endLongtitude = endLongtitude;
+	public void setEndLongitude(Double endLongitude) {
+		this.endLongitude = endLongitude;
 	}
 	public Date getDateCreated() {
 		return dateCreated;

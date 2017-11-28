@@ -22,7 +22,7 @@
 	
 	<property name="show_sql">false</property>
 	<property name="hibernate.temp.use_jdbc_metadata_defaults">false</property>
-	<property name="hibernate.hbm2ddl.auto">create</property>
+	<!-- <property name="hibernate.hbm2ddl.auto">create</property> -->
 	<mapping class="pl.lukasz.entities.User"/>
 	<mapping class="pl.lukasz.entities.Track"/>
 </session-factory>
