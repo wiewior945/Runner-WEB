@@ -25,12 +25,13 @@ public class TrackDao {
 			return sessionFactory.openSession();
 		}
 		
-		public void saveTrack(Track track){
+		public Long saveTrack(Track track){
 			Session session = getSession();
 			session.beginTransaction();
-			session.save(track);
+			Long id = (Long) session.save(track);
 			session.getTransaction().commit();
 			session.close();
+			return id;
 		}
 		
 		//zwraca wszystkie trasy dostêpne na widocznym fragmencie mapy

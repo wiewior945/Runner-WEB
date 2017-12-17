@@ -1,6 +1,0 @@
-192.168.8.100 - - [29/Oct/2017:17:01:55 +0100] "GET / HTTP/1.1" 404 1073
-192.168.8.101 - - [29/Oct/2017:17:03:01 +0100] "POST /Runner/webservice/saveTrack HTTP/1.1" 200 14
-192.168.8.101 - - [29/Oct/2017:17:11:20 +0100] "GET /Runner/webservice/login?name=a&password=a HTTP/1.1" 200 45
-192.168.8.101 - - [29/Oct/2017:17:12:36 +0100] "GET /Runner/webservice/login?name&password HTTP/1.1" 200 -
-192.168.8.101 - - [29/Oct/2017:17:12:44 +0100] "GET /Runner/webservice/login?name=a&password=a HTTP/1.1" 200 45
-192.168.8.101 - - [29/Oct/2017:17:17:00 +0100] "GET /Runner/webservice/login?name=a&password=a HTTP/1.1" 200 45

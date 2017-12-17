@@ -40,7 +40,6 @@ public class Track {
 	@Column private String startDescription;
 	@Column private String finishDescription;
 	@Column private String name;
-	@Column private String time;
 	
 	
 	public Long getId() {
@@ -114,11 +113,5 @@ public class Track {
 	}
 	public void setName(String name) {
 		this.name = name;
-	}
-	public String getTime() {
-		return time;
-	}
-	public void setTime(String time) {
-		this.time = time;
 	}
 }

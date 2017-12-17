@@ -1,9 +1,0 @@
-192.168.8.100 - - [20/Oct/2017:17:39:25 +0200] "GET / HTTP/1.1" 404 1073
-192.168.8.101 - - [20/Oct/2017:17:41:42 +0200] "POST /Runner/webservice/saveTrack HTTP/1.1" 404 1050
-192.168.8.101 - - [20/Oct/2017:17:43:53 +0200] "POST /Runner/webservice/saveTrack HTTP/1.1" 404 1050
-192.168.8.101 - - [20/Oct/2017:17:49:35 +0200] "POST /Runner/webservice/saveTrack HTTP/1.1" 404 1050
-192.168.8.101 - - [20/Oct/2017:17:51:45 +0200] "POST /Runner/webservice/saveTrack HTTP/1.1" 404 1050
-192.168.8.100 - - [20/Oct/2017:17:53:13 +0200] "GET /Runner/webservice/saveTrack HTTP/1.1" 404 1050
-192.168.8.100 - - [20/Oct/2017:17:53:13 +0200] "GET /favicon.ico HTTP/1.1" 404 1084
-192.168.8.100 - - [20/Oct/2017:17:55:01 +0200] "GET /Runner/webservice/saveTrack HTTP/1.1" 404 1050
-192.168.8.100 - - [20/Oct/2017:17:56:11 +0200] "GET /Runner/webservice/testClass HTTP/1.1" 404 1050

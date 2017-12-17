@@ -12,16 +12,26 @@ import org.springframework.web.bind.annotation.RestController;
 import pl.lukasz.entities.LatLng;
 import pl.lukasz.entities.MarkerInfo;
 import pl.lukasz.entities.Track;
+import pl.lukasz.entities.TrackTime;
 import pl.lukasz.services.TrackService;
+import pl.lukasz.services.TrackTimeService;
 
 @RestController
 public class TrackWebService {
 
 	@Autowired TrackService trackService;
+	@Autowired TrackTimeService trackTimeService;
 	
+	//zapisuje trasê i jej czas, do serwera przychodzi lista z tras¹ i czasem
 	@RequestMapping("/webservice/saveTrack")
-	public Boolean saveTrack(@RequestBody Track track){
-		trackService.saveTrack(track);
+	public Long saveTrack(@RequestBody Track track){
+		Long id =  trackService.saveTrack(track);
+		return id;
+	}
+	
+	@RequestMapping("/webservice/saveTrackTime")
+	public Boolean saveTrackTime(@RequestBody TrackTime trackTime){
+		trackTimeService.saveTrackTime(trackTime);
 		return true;
 	}
 	

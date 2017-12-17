@@ -15,8 +15,8 @@ public class TrackService {
 	@Autowired TrackDao trackDao;
 	
 	
-	public void saveTrack(Track track){
-		trackDao.saveTrack(track);
+	public Long saveTrack(Track track){
+		return trackDao.saveTrack(track);
 	}
 	
 	public List<Track> getMarkersForMapPiece(LatLng leftTop, LatLng rightBottom){
