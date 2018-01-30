@@ -24,14 +24,6 @@ public class Track {
 	@ManyToOne
 	private User user;
 	
-	@Column 
-	@ElementCollection(targetClass=Double.class)
-	private List<Double> latitude; 
-	
-	@Column
-	@ElementCollection(targetClass=Double.class)
-	private List<Double> longitude;
-	
 	@Column private Double startLatitude;
 	@Column private Double startLongitude;
 	@Column private Double endLatitude;
@@ -40,6 +32,8 @@ public class Track {
 	@Column private String startDescription;
 	@Column private String finishDescription;
 	@Column private String name;
+	@Column private int distance;
+	
 	
 	
 	public Long getId() {
@@ -53,18 +47,6 @@ public class Track {
 	}
 	public void setUser(User user) {
 		this.user = user;
-	}
-	public List<Double> getLatitude() {
-		return latitude;
-	}
-	public void setLatitude(List<Double> latitude) {
-		this.latitude = latitude;
-	}
-	public List<Double> getLongitude() {
-		return longitude;
-	}
-	public void setLongitude(List<Double> longitude) {
-		this.longitude = longitude;
 	}
 	public Double getStartLatitude() {
 		return startLatitude;
@@ -84,7 +66,7 @@ public class Track {
 	public void setEndLatitude(Double endLatitude) {
 		this.endLatitude = endLatitude;
 	}
-	public Double getEndLongtitude() {
+	public Double getEndLongitude() {
 		return endLongitude;
 	}
 	public void setEndLongitude(Double endLongitude) {
@@ -113,5 +95,11 @@ public class Track {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public int getDistance() {
+		return distance;
+	}
+	public void setDistance(int distance) {
+		this.distance = distance;
 	}
 }

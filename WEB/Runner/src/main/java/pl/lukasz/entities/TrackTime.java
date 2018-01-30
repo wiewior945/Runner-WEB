@@ -1,13 +1,17 @@
 package pl.lukasz.entities;
 
 import java.util.Date;
+import java.util.List;
 
 import javax.persistence.Column;
+import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+
+import org.hibernate.annotations.CascadeType;
 
 @Entity
 public class TrackTime {
@@ -22,11 +26,26 @@ public class TrackTime {
 	@ManyToOne
 	private Track track;
 	
+	
+	@ElementCollection(targetClass=Double.class)
+	private List<Double> latitude; 
+	
+
+	@ElementCollection(targetClass=Double.class)
+	private List<Double> longitude;
+	
 	@Column private String time;
 	@Column private Date date;
+	@Column private Long timeInMiliseconds;
 	
 	
 	
+	public Long getTimeInMiliseconds() {
+		return timeInMiliseconds;
+	}
+	public void setTimeInMiliseconds(Long timeInMiliseconds) {
+		this.timeInMiliseconds = timeInMiliseconds;
+	}
 	public Long getId() {
 		return id;
 	}
@@ -57,4 +76,16 @@ public class TrackTime {
 	public void setDate(Date date) {
 		this.date = date;
 	}	
+	public List<Double> getLatitude() {
+		return latitude;
+	}
+	public void setLatitude(List<Double> latitude) {
+		this.latitude = latitude;
+	}
+	public List<Double> getLongitude() {
+		return longitude;
+	}
+	public void setLongitude(List<Double> longitude) {
+		this.longitude = longitude;
+	}
 }

@@ -1,7 +1,6 @@
 pl\lukasz\webservices\TrackWebService.class
 pl\lukasz\webservices\UserWebService.class
 pl\lukasz\entities\LatLng.class
-pl\lukasz\entities\MarkerInfo.class
 pl\lukasz\controlers\LoginController.class
 pl\lukasz\entities\LoggedUser.class
 pl\lukasz\controlers\DashboardController.class
