@@ -3,4 +3,5 @@
 <typeInfo handle="=Runner/src\/main\/java&lt;pl.lukasz.controlers{DashboardController.java[DashboardController" modifiers="1" timestamp="1503509910594"/>
 <typeInfo handle="=Runner/src\/main\/java&lt;pl.lukasz.webservices{TrackWebService.java[TrackWebService" modifiers="1" timestamp="1517165118481"/>
 <typeInfo handle="=Runner/src\/main\/java&lt;pl.lukasz.entities{Track.java[Track" modifiers="1" timestamp="1514501588770"/>
+<typeInfo handle="=Runner/src\/main\/java&lt;pl.lukasz.entities{TrackTime.java[TrackTime" modifiers="1" timestamp="1516728998675"/>
 </typeInfoHistroy>

@@ -1,0 +1,4 @@
+192.168.8.100 - - [25/Feb/2018:16:59:12 +0100] "GET /Runner/webservice/login?name=a&password=a HTTP/1.1" 200 45
+192.168.8.100 - - [25/Feb/2018:16:59:12 +0100] "GET /favicon.ico HTTP/1.1" 404 1084
+192.168.8.100 - - [25/Feb/2018:16:59:20 +0100] "GET /Runner/webservice/login?name=a&password=a HTTP/1.1" 200 45
+192.168.8.100 - - [25/Feb/2018:16:59:21 +0100] "POST /Runner/webservice/updateTracksMarkers HTTP/1.1" 200 12
